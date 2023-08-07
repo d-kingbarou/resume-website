@@ -8,6 +8,7 @@ import consulting from "../public/consulting.png";
 import web1 from "../public/hoobank.png";
 import web2 from "../public/react-calculator.png";
 import web3 from "../public/react-quiz.png";
+import web4 from "../public/react-shop.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -182,6 +183,15 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web3}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                src={web4}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
