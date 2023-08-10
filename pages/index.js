@@ -6,9 +6,11 @@ import imgdp from "../public/img.png";
 import code from "../public/code.png";
 import consulting from "../public/consulting.png";
 import web1 from "../public/hoobank.png";
-import web2 from "../public/react-calculator.png";
-import web3 from "../public/react-quiz.png";
-import web4 from "../public/react-shop.png";
+import web2 from "../public/react-shop.png";
+import web3 from "../public/gericht.png";
+import web4 from "../public/react-calculator.png";
+import web5 from "../public/react-quiz.png";
+
 import { useState } from "react";
 
 export default function Home() {
@@ -159,7 +161,7 @@ export default function Home() {
 
         <section>
           <div className="dark:text-white">
-            <h3 className="text-3xl py-1 mt-7">Portfolio</h3>
+            <h3 className="text-3xl py-1 mt-7">Personal Projects</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
@@ -192,6 +194,15 @@ export default function Home() {
             <div className="basis-1/3 flex-1">
               <Image
                 src={web4}
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+              />
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Image
+                src={web5}
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
